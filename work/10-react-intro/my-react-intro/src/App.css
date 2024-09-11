@@ -1,0 +1,97 @@
+.app {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.app-header {
+  background-color: #b687d7;
+  color: white;
+  padding: 20px;
+  font-size: 1.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.login-username {
+  width: calc(100% - 10px);
+  padding: 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.form-btn {
+  margin-left: 100px;
+}
+
+main {
+  margin-top: 80px;
+}
+
+button {
+  background-color: #ac78d2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 30px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+button:hover {
+  background-color: #a44bee;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-left: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.greeting {
+  font-size: 1.3rem;
+  color: #b687d7;
+  margin-bottom: 20px;
+}
+
+
+.app-footer {
+  background-color: #b687d7;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.login-form, .logout-section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.alert {
+  color: red;
+}
+

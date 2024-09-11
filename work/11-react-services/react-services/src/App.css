@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  color: #333;
+  text-transform: uppercase;
+}
+
+.login-page,
+.user {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: inline-block;
+  width: 300px;
+}
+
+input {
+  margin: 10px 6px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: calc(100% - 22px);
+}
+
+button {
+  background-color: #5c6bc0;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #3f51b5;
+}
+
+button.logout-button {
+  background-color: #f44336;
+}
+
+button.logout-button:hover {
+  background-color: #d32f2f;
+}
+
+.error {
+  color: #d32f2f;
+  margin: 10px;
+}
+
+.username {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.word {
+  margin: 10px 0;
+}
+
+/*Loading*/
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.loading-circle {
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

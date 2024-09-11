@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Shop</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<h1>Cat Shop</h1>
+<div id="products">
+    <div class="product" data-id="1">
+        <img src="http://placekitten.com/150/150?image=1" alt="Fluffball">
+        <h2>Fluffball</h2>
+        <p>$0.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product" data-id="2">
+        <img src="http://placekitten.com/150/150?image=2" alt="General Mayhem">
+        <h2>General Mayhem</h2>
+        <p>$3.14</p>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product" data-id="3">
+        <img src="http://placekitten.com/150/150?image=3" alt="Mister Whiskers">
+        <h2>Mister Whiskers</h2>
+        <p>$2.73</p>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+</div>
+
+<button id="hide-cart" style="display:none;">Hide Cart</button>
+<button id="view-cart">View Cart <span id="count">(0)</span></button>
+<div id="cart">
+</div>
+
+<script src="bundle.js"></script>
+</body>
+</html>
